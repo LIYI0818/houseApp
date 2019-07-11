@@ -1,0 +1,38 @@
+.SelectCity{
+    padding: 10px 10px 0;
+    height: 100%;
+}
+.SelectCity h3{
+    background:#ccc;
+    margin: 0;
+}
+.SelectCity .citys{
+    padding:0;
+    margin:0;
+    background: #fff;
+    display: flex;
+    flex-wrap:wrap;
+    list-style: none;
+    text-align: center;
+}
+.SelectCity .citys .city_item{
+    width: 33%;
+    line-height: 30px;
+}
+
+.city_div{
+    position: fixed;
+    width:92%;
+    height:100%;
+    overflow: auto;
+}
+.SelectCity .cityMenu{
+    width:20px;
+    position: fixed;
+    top:25%;
+    right:0;
+    text-align: center;
+}
+.SelectCity .cityMenu p{
+    margin:0;
+}

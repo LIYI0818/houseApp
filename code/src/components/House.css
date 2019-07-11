@@ -1,0 +1,26 @@
+.like_list{
+    margin-top:8px;
+    display: flex;
+    justify-content: space-between;
+}
+.like_list .info{
+    width:48%;
+}
+.like_list .info h2{
+    font-size:18px;
+    margin:0;
+    font-weight: bold;
+}
+.like_list .info span{
+    margin-right:6px;
+    color:#aeaeae;
+}
+ .like_list .price{
+    font-size:16px;
+    color:red;
+    font-weight: bold;
+    padding-top:10px;
+}
+ .like_list img{
+    width:26%;
+}
